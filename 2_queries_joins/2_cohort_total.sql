@@ -3,3 +3,5 @@ FROM assignment_submissions
 JOIN students ON student.id = student_id
 JOIN cohorts ON cohorts.id = cohort_id
 WHERE cohort.name = 'FEB12';
+
+
